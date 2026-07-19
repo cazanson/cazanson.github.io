@@ -1,12 +1,12 @@
 import type { UserConfig } from "../src/site.config";
 
 const userConfig: UserConfig = {
-  title: "Lipi",
+  title: "Mark Johnson",
   description:
     "A minimal editorial theme for Astro built for blogs, journals, travel writing, and long-form publishing.",
 
-  url: "https://astro-lipi.pages.dev",
-  author: "John Doe",
+  url: "https://cazanson.github.io",
+  author: "Mark Johnson",
 
   logo: "/logo.svg",
   avatar: "/avatar.png",
@@ -20,7 +20,7 @@ const userConfig: UserConfig = {
   footerLinks: [
     { title: "RSS", url: "/rss.xml" },
     { title: "Archive", url: "/archive" },
-    { title: "Source", url: "https://github.com/thelocalhoststudio/lipi" },
+    { title: "Source", url: "https://cazanson.github.io" },
     
   ],
 
