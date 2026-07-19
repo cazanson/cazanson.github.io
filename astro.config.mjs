@@ -17,7 +17,7 @@ import { remarkObsidian } from './src/plugins/remark-obsidian.ts';
 
 // https://astro.build/config
 export default defineConfig({
-  site: siteConfig.url,
+  site: 'https://cazanson.github.io',
 
   image: {
     responsiveStyles: true,
