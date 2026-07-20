@@ -49,13 +49,13 @@ const userConfig: UserConfig = {
   recentPosts: 6,
   relatedPosts: 4,
 
-  showLogo: true,
+  showLogo: false,
   showThemeToggle: true,
-  showReadingTime: true,
+  showReadingTime: false,
 
   heroVariant: "studio",
 
-  annotation: "Mediaevalist. Thomist. Theology. Marquette.",
+  annotation: "Medievalist. Thomist. Theology. Marquette.",
 };
 
 export default userConfig;
