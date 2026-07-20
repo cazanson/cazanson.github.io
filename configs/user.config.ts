@@ -52,7 +52,7 @@ const userConfig: UserConfig = {
   showThemeToggle: true,
   showReadingTime: true,
 
-  heroVariant: "studio",
+  heroVariant: "default",
 
   annotation: "Medievalist. Thomist. Theology. Marquette.",
 };
