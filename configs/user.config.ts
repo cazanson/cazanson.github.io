@@ -1,9 +1,9 @@
 import type { UserConfig } from "../src/site.config";
 
 const userConfig: UserConfig = {
-  title: "Mark Johnson",
+  title: "Ca’ Zanson",
   description:
-    "A minimal editorial theme for Astro built for blogs, journals, travel writing, and long-form publishing.",
+    "Welcome to my site. I'm Mark Johnson of the Theology Department at Marquette University",
 
   url: "https://cazanson.github.io",
   author: "Mark Johnson",
@@ -27,7 +27,7 @@ const userConfig: UserConfig = {
   social: [
     {
       title: "GitHub",
-      url: "https://github.com/thelocalhoststudio/lipi",
+      url: "https://github.com/cazanson/",
       icon: "github",
     },
     {
@@ -54,7 +54,7 @@ const userConfig: UserConfig = {
 
   heroVariant: "studio",
 
-  annotation: "Writing between filter coffees and terminal windows.",
+  annotation: "Medievalist. Thomist. Theology. Marquette.",
 };
 
 export default userConfig;
