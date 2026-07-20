@@ -43,18 +43,19 @@ const userConfig: UserConfig = {
     
   ],
 
-  footerCredits: "Designed for reading. Built with Astro & Lipi",
+  footerCredits: "",
 
   postsPerPage: 8,
   recentPosts: 6,
   relatedPosts: 4,
 
+  showLogo: true,
   showThemeToggle: true,
   showReadingTime: true,
 
-  heroVariant: "default",
+  heroVariant: "studio",
 
-  annotation: "Medievalist. Thomist. Theology. Marquette.",
+  annotation: "Mediaevalist. Thomist. Theology. Marquette.",
 };
 
 export default userConfig;
