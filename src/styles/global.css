@@ -7,7 +7,7 @@
 
 
 html {
-  font-size: clamp(16px, 1rem + 0.15vw, 20px);
+  font-size: clamp(16px, 1rem + 0.15vw, 18px);
 }
 
 @layer base {
