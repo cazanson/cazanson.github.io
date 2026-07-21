@@ -72,8 +72,8 @@ export default defineConfig({
         variants: [
           { weight: 300, style: "normal", src: ["./src/assets/fonts/valkyrie_ot_b_regular.woff2"] },
           { weight: 300, style: "italic", src: ["./src/assets/fonts/valkyrie_ot_b_italic.woff2"] },
-          { weight: 400, style: "normal", src: ["./src/assets/fonts/valkyrie_ot_a_regular.woff2"] },
-          { weight: 400, style: "italic", src: ["./src/assets/fonts/valkyrie_ot_a_italic.woff2"] },
+          { weight: "normal", style: "normal", src: ["./src/assets/fonts/valkyrie_ot_a_regular.woff2"] },
+          { weight: "normal", style: "italic", src: ["./src/assets/fonts/valkyrie_ot_a_italic.woff2"] },
           { weight: 600, style: "normal", src: ["./src/assets/fonts/valkyrie_ot_a_bold.woff2"] },
           { weight: 600, style: "italic", src: ["./src/assets/fonts/valkyrie_ot_a_bold_italic.woff2"] },
         ],
