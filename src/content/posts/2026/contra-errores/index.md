@@ -1,5 +1,5 @@
 ---
-title: The Title of the <em>Contra errores graecorum</em>
+title: The Title of the Contra errores graecorum
 description: Didn't Thomas see that the work would be seen as antagonistic for the outset?
 published: 2025-06-22
 updated: 2026-07-21
@@ -19,6 +19,11 @@ As to its literary genre the *Contra errores graecorum* is a *rescriptum*: a res
 !["Liber de fide trinitatis ex diversis auctoritatibus sanctorum grecorum / confectus contra grecos (Vat. Lat. 808, f. 47ra)"](./attachments/incipit.webp)
 
 incipit.webp "Liber de fide trinitatis ex diversis auctoritatibus sanctorum grecorum / confectus contra grecos (Vat. Lat. 808, f. 47ra)"
+
+<figure>
+  <img src="./attachments/incipit.webp" alt="Incipit in Vat. Lat. 808" />
+  <figcaption>Liber de fide trinitatis ex diversis auctoritatibus sanctorum grecorum / confectus contra grecos</figcaption>
+</figure>
 
 A similar labeling at the work’s end:
 
