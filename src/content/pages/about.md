@@ -1,19 +1,13 @@
 ---
 title: About
-description: Lipi is a typography-first Astro template for long-form writing, made by The Localhost Studio.
-updated: 2026-05-26
+description: Blessedly ensconced in Marquette's Department of Theology since 1996.
+updated: 2026-07-21
 ---
+Hello, and welcome to my site. I’m Mark Johnson of the Theology Department at Marquette University. For most things see [my profile](https://marquette.academia.edu/mfjohnson) on Academia.edu. This site has my Posts and my CV.
 
-Lipi is a template for Astro, built for writers who care about how their words look on the page. It is not a general-purpose blog theme, and it is not trying to be. It is a publishing environment for essays, travel notes, developer journals, and personal archives: the kind of writing that benefits from a considered layout and a quiet interface.
+## Ca’ Zanson?
+In the early-1970’s my US Army father had our family stationed in Vicenza, Italy, 45 miles from Venice and smack-dab in the middle of Italy’s Veneto region. Venetian pronunciation softens the Italian soft gi/ge (dʒ), such that ‘Gian’ (John) in Venetian sounds like ‘Zan’ in English.
 
-Lipi's visual design draws inspiration from the [Kami](https://kami.tw93.fun) design language: warm neutrals, a constrained measure, generous spacing, and an interface that stays out of the way. The type is set in Literata, a serif face designed for reading at length. The layout holds under Cmd+P. The output is static HTML with minimal JavaScript.
+“Ca’ di Zan” means ”John’s house” (or "House of John") in Venetian, so “ca’ Zanson” would mean ”Johnson’s house.” Hmmm. A fun domain name if your given name is a snoozer like mine, right? I snapped it up.
 
----
-
-## The Localhost Studio
-
-The Localhost Studio is a small independent studio building thoughtful tools for writers and publishers. We work at the intersection of typography, publishing, and the web, with a preference for things that are made carefully and maintained honestly.
-
-Lipi began as a personal template, became a design exploration, and eventually became something we thought was worth sharing. The inspiration from Kami runs through everything we make: the same warmth, the same restraint, the same conviction that the content should come first.
-
-If you are building something with Lipi, or if you have a question about the design, you can find us at [The Localhost Studio](https://thelocalhoststudio.in) or through the links in the footer.
+Enjoy your stay.
