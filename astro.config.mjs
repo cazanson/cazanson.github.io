@@ -55,7 +55,7 @@ export default defineConfig({
     
     /*
     {
-      name: "Merriweather",
+      name: "Literati",
       cssVariable: "--font-lipi-serif",
       provider: fontProviders.fontsource(),
       weights: [300, 400, 500, 600, 700],
