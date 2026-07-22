@@ -1,8 +1,10 @@
 ---
 title: About
 description: Blessedly ensconced in Marquette's Department of Theology since 1996.
-published: 2026-07-21
+published: 2026-05-14
+updated: 2026-07-21
 ---
+
 Hello, and welcome to my site. I’m Mark Johnson of the Theology Department at Marquette University. For most things see [my profile](https://marquette.academia.edu/mfjohnson) on Academia.edu. This site has my Posts and my CV.
 
 ## Ca’ Zanson?
