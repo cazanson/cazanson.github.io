@@ -1,12 +1,12 @@
 ---
-title: The Title of the *Contra errores graecorum*
+title: The Title of the <em>Contra errores graecorum</em>
 description: Didn't Thomas see that the work would be seen as antagonistic for the outset?
 published: 2025-06-22
 updated: 2026-07-21
 category: Works
 tags:
-  - A. Dondaine
-  - H. Dondaine
+  - Antoine Dondaine
+  - Hyacinthe Dondaine
   - P. Uccelli
 ---
 
@@ -15,6 +15,8 @@ The title of Thomas’s work, the *Contra errores graecorum*, has always bothere
 The work is not listed in the Parisian stationer's taxation list from 1286 (CUP 1:530, pp. 644–650), nor is it found in the 1304 stationer's list (CUP 2:642, pp. 107–112). So we don't know how it might have been called in Paris at that time. But it is mentioned in the so-called “Prague catalog” of Thomas’s opuscula found in Prague, Knihovna metropolitní kapituly A.XVII.2 f. 1r, whose contents nearly mirror those of Bartholomew of Capua in his submission to the Naples process of Thomas’s later canonization inquest. Alas, the Naples manuscript containing that catalog has been lost, so we must do with a Paris manuscript (Bnf Lat. 3112 58r–59v). In each case the work is described the same: “Contra errores grecorum ad Urbanum papam” (Paris) and “Item. Contra errores grecorum ad urbanum papam” (Prague).
 
 As to its literary genre the *Contra errores graecorum* is a *rescriptum*: a response from Thomas to a conversation begun by someone else. In this case the originator of the conversation was Pope Urban IV, then in Orvieto as was Thomas. It is the work that Pope Urban IV forwarded to Thomas (*exhibitum*) for his study and response that is the origin for the title. A witness to the work that Thomas received can be found in the Vatican Library (Vat. Lat. 808 47ra–65va), and its title leaves no doubt as to the eventual origin of Thomas’s:
+
+!["Liber de fide trinitatis ex diversis auctoritatibus sanctorum grecorum / confectus contra grecos (Vat. Lat. 808, f. 47ra)"](./attachments/incipit.webp)
 
 incipit.webp "Liber de fide trinitatis ex diversis auctoritatibus sanctorum grecorum / confectus contra grecos (Vat. Lat. 808, f. 47ra)"
 
