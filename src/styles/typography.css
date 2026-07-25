@@ -6,7 +6,7 @@
      ========================================= */
 
   .app-prose {
-    @apply prose max-w-none text-base;
+    @apply prose max-w-none text-lg;
   }
 
   .app-prose :where(p) {
@@ -163,7 +163,7 @@
   }
   
   .app-prose :where(blockquote) p {
-    @apply text-base leading-relaxed text-muted-foreground;
+    @apply text-lg leading-relaxed text-muted-foreground;
   }
 
   /* Attribution / cite inside blockquote */
