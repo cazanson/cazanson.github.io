@@ -25,8 +25,7 @@ export function generatePostSchema(
       post.data.published,
 
     url: getPostUrl(
-      post.id,
-      post.filePath
+      post.id
     ),
 
     author: {

@@ -14,7 +14,7 @@ const {
   class: className = "",
 } = Astro.props;
 
-const url = getPostUrl(post.id, post.filePath);
+const url = getPostUrl(post.id);
 const titleSlug = slugify(post.data.title.replaceAll(".", "-"));
 const titleClass = [ "text-balance", className,]
   .filter(Boolean)

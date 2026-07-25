@@ -22,8 +22,7 @@ export const getStaticPaths = async () => {
   return allPages.map((page) => ({
     params: {
       slug: getPageSlug(
-        page.id,
-        page.filePath
+        page.id
       ),
     },
     props: {

@@ -1,8 +1,6 @@
 import { getCollection, type CollectionEntry, } from "astro:content";
 import { getAssetPath } from "./url";
 import { slugify } from "./text";
-import siteConfig from "@/site.config";
-import {POSTS_PATH, PAGES_PATH} from "@/content.config";
 
 export type Post = CollectionEntry<"posts">;
 export type Page = CollectionEntry<"pages">;
@@ -143,22 +141,22 @@ export async function getAllTagArchives(): Promise<TagArchive[]> {
 /**
  * Remove hidden folders and normalize directory segments.
  *
+ * Astro's content loader already collapses a folder's `index.md`/`index.mdx`
+ * into the folder name itself (e.g. "milk/index.mdx" -> id "milk"), so
+ * deriving segments from the entry id (rather than the raw file path) avoids
+ * counting that folder twice.
+ *
  * Example:
- * posts/_2026/Japan Beyond Places.md
+ * id "_2026/japan-beyond-places"
  * -> []
  *
- * posts/travel/Japan/Tokyo.md
+ * id "travel/japan/tokyo"
  * -> ["travel", "japan"]
  */
 export function getPostPathSegments(
-  filePath?: string
+  id: string
 ): string[] {
-  if (!filePath) {
-    return [];
-  }
-
-  return filePath
-    .replace(POSTS_PATH, "")
+  return id
     .split("/")
     .filter(Boolean)
     .filter((segment) => !segment.startsWith("_"))
@@ -187,10 +185,9 @@ export function getPostSlugSegment(id: string): string {
  * -> "travel/japan/tokyo"
  */
 export function getPostSlugPath(
-  id: string,
-  filePath?: string
+  id: string
 ): string {
-  const segments = getPostPathSegments(filePath);
+  const segments = getPostPathSegments(id);
 
   const slug =
     slugify(getPostSlugSegment(id));
@@ -207,21 +204,15 @@ export function getPostSlugPath(
  * "/travel/japan/tokyo"
  */
 export function getPostSlug(
-  id: string,
-  filePath?: string
+  id: string
 ): string {
-  return `/${getPostSlugPath(id, filePath)}`;
+  return `/${getPostSlugPath(id)}`;
 }
 
 export function getPagePathSegments(
-  filePath?: string
+  id: string
 ): string[] {
-  if (!filePath) {
-    return [];
-  }
-
-  return filePath
-    .replace(PAGES_PATH, "")
+  return id
     .split("/")
     .filter(Boolean)
     .filter((segment) => !segment.startsWith("_"))
@@ -230,10 +221,9 @@ export function getPagePathSegments(
 }
 
 export function getPageSlugPath(
-  id: string,
-  filePath?: string
+  id: string
 ): string {
-  const segments = getPagePathSegments(filePath);
+  const segments = getPagePathSegments(id);
   const slug = slugify(getPostSlugSegment(id));
 
   return segments.length > 0
@@ -242,10 +232,9 @@ export function getPageSlugPath(
 }
 
 export function getPageSlug(
-  id: string,
-  filePath?: string
+  id: string
 ): string {
-  return `/${getPageSlugPath(id, filePath)}`;
+  return `/${getPageSlugPath(id)}`;
 }
 
 /**
@@ -255,11 +244,10 @@ export function getPageSlug(
  * "/posts/travel/japan/tokyo"
  */
 export function getPostUrl(
-  id: string,
-  filePath?: string
+  id: string
 ): string {
   return getAssetPath(
-    `posts/${getPostSlugPath(id, filePath)}`
+    `posts/${getPostSlugPath(id)}`
   );
 }
 

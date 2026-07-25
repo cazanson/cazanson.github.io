@@ -21,8 +21,7 @@ export async function GET(context: APIContext) {
         post.data.updated ??
         post.data.published,
       link: getPostUrl(
-        post.id,
-        post.filePath
+        post.id
       ),
     })),
   });

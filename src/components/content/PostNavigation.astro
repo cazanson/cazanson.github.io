@@ -23,8 +23,7 @@ const { prevPost, nextPost } = Astro.props;
           {prevPost && (
             <a
               href={getPostUrl(
-                  prevPost.id,
-                  prevPost.filePath
+                  prevPost.id
                 )}
 	              class="group flex flex-1 flex-col gap-1 no-underline transition-colors"
             >
@@ -40,8 +39,7 @@ const { prevPost, nextPost } = Astro.props;
           {nextPost && (
             <a
               href={getPostUrl(
-                  nextPost.id,
-                  nextPost.filePath
+                  nextPost.id
                 )}
 	              class="group flex flex-1 flex-col gap-1 text-right no-underline transition-colors"
             >

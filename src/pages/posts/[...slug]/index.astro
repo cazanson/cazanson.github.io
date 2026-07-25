@@ -13,8 +13,7 @@ export const getStaticPaths = async () => {
     return {
       params: {
         slug: getPostSlug(
-          post.id,
-          post.filePath
+          post.id
         ),
       },
 

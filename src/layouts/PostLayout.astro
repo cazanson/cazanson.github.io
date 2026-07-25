@@ -50,7 +50,7 @@ const { title, description, cover, published, tags } = post.data;
 
 const allPosts    = await getAllPosts();
 const relatedPosts = getRelatedPosts(post, allPosts, siteConfig.relatedPosts);
-const ogImage = `/og/posts/${getPostSlug(post.id, post.filePath)}.png`;
+const ogImage = `/og/posts/${getPostSlug(post.id)}.png`;
 const structuredData = generatePostSchema(post);
 const coverImage = getCoverImage(cover);
 const galleryImages = getGalleryImages(post.filePath ?? '');
