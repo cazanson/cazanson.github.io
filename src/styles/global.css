@@ -230,6 +230,12 @@ html {
     transition: opacity 0.2s ease, filter 0.2s ease;
   }
 
+  /* Single inline images keep their natural aspect ratio instead of
+     being cropped to the grid's fixed 3:2 thumbnail shape. */
+  .gallery-single .gallery-item__image {
+    @apply h-auto aspect-auto object-contain;
+  }
+
   /* ── GLightbox overrides ─────────────────────────── */
   .glightbox-clean .gslide-description {
     @apply bg-background;
